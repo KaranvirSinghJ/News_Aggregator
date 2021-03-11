@@ -37,7 +37,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="/Users/karanvirsingh/Desktop/newsaggregator"
+VIRTUAL_ENV="/Users/karanvirsingh/Desktop/news_aggregator"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"
@@ -54,8 +54,8 @@ fi
 
 if [ -z "${VIRTUAL_ENV_DISABLE_PROMPT:-}" ] ; then
     _OLD_VIRTUAL_PS1="${PS1:-}"
-    if [ "x(newsaggregator) " != x ] ; then
-	PS1="(newsaggregator) ${PS1:-}"
+    if [ "x(news_aggregator) " != x ] ; then
+	PS1="(news_aggregator) ${PS1:-}"
     else
     if [ "`basename \"$VIRTUAL_ENV\"`" = "__" ] ; then
         # special case for Aspen magic directories
